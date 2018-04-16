@@ -13,7 +13,7 @@ class Head extends React.PureComponent {
 
     return (
       <HeadNext>
-        <title>{`${title} | Public Safety Assessment`}</title>
+        <title>{`${title} | Inari`}</title>
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Vizzuality" />

@@ -1,10 +1,10 @@
 {
-  "name": "criminal-psa",
+  "name": "inari",
   "version": "0.0.1",
-  "description": "Criminal PSA",
+  "description": "Inari",
   "author": "miguel.barrenechea@vizzuality.com",
   "license": "ISC",
-  "repository": "https://github.com/Vizzuality/criminal-psa.git",
+  "repository": "https://github.com/mbarrenechea/inari.git",
   "main": "index.js",
   "dependencies": {
     "@zeit/next-sass": "^0.1.2",
