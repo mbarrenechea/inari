@@ -19,7 +19,6 @@ class Head extends React.PureComponent {
         <meta name="author" content="Vizzuality" />
 
         <link rel="icon" href="/static/favicon.ico" />
-        <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Lato:400,300,700" />
 
         {/* Mobile Adress background */}
         {/* Chrome, Firefox OS and Opera */}

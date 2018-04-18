@@ -8,8 +8,8 @@ class HomeComponent extends React.Component {
     return (
       <div className="c-hero">
         <div className="hero-content">
-          <h3>Estudio dental</h3>
-          <h2>Odontología avanzada y estética dental</h2>
+          <h4>Estudio dental</h4>
+          <h1>Odontología avanzada y estética dental</h1>
         </div>
       </div>
     );

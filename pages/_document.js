@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
           this file will only be rendered in the server side
         */}
         <Head>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" />
           <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body>
