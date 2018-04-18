@@ -3,6 +3,9 @@ import React from 'react';
 // Layout
 import Layout from 'layout/layout';
 
+// Components
+import Hero from 'layout/home/hero';
+
 class HomeComponent extends React.Component {
   render() {
     return (
@@ -10,7 +13,7 @@ class HomeComponent extends React.Component {
         title="Home"
         description="Home description"
       >
-        <h2>Home</h2>
+        <Hero />
       </Layout>
     );
   }
