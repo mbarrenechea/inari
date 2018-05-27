@@ -14,6 +14,8 @@ module.exports = withSass({
 
     return config;
   },
-
+  exportPathMap() {
+    return { '/': { page: '/home' } };
+  },
   assetPrefix: process.env.NODE_ENV === 'production' ? '/inari/' : ''
 });
