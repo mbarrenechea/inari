@@ -5,7 +5,6 @@ import Document, { Head, Main, NextScript } from 'next/document';
 import Icons from 'components/ui/icons';
 
 const stylesURL = process.env.NODE_ENV === 'production' ? '/inari' : '';
-console.log(stylesURL);
 
 export default class MyDocument extends Document {
   render() {
