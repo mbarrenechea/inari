@@ -1,7 +1,7 @@
 @import 'css/settings';
 
 .c-diferentiation {
-  padding: $space-1 * 6 0;
+  padding: $space-1 * 6 0 0;
 
   .diferentiation-content {
     margin: $space-1 * 4 0 0;
@@ -16,7 +16,7 @@
   }
 
   .diferentiation-img {
-    transform: translate(-60%, 0);
+    transform: translate(-60%, -100px);
     border-radius: 50%;
     width: 600px;
     height: 600px;

@@ -1,0 +1,43 @@
+@import 'css/settings';
+
+.c-testimonials {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+    background: $color-primary;
+    width: 300%;
+    padding-bottom: 300%;
+  }
+
+  .testimonials-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    color: $color-secondary;
+    text-align: center;
+
+    > * {
+      margin: $space-1 0 0;
+
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+}
