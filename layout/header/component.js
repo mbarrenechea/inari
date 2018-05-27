@@ -14,14 +14,14 @@ class Header extends React.PureComponent {
   render() {
     return (
       <header className="c-header">
-        <h1>
-          Estudio dental Inari
+        <h1 className="header-logo">
+          <span>Estudio dental Inari</span>
           <svg>
             <use xlinkHref="#icon-logo" />
           </svg>
         </h1>
 
-        <nav>
+        <nav className="header-nav">
           <ul>
             <li>
               <a href="/">
