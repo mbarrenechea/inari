@@ -3,7 +3,7 @@ import React from 'react';
 // Styles
 import './styles.scss';
 
-class HomeComponent extends React.Component {
+class HeroComponent extends React.Component {
   render() {
     return (
       <div className="c-hero">
@@ -16,4 +16,4 @@ class HomeComponent extends React.Component {
   }
 }
 
-export default HomeComponent;
+export default HeroComponent;

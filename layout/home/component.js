@@ -6,6 +6,7 @@ import Layout from 'layout/layout';
 // Components
 import Hero from 'layout/home/hero';
 import Services from 'layout/home/services';
+import Diferentiation from 'layout/home/diferentiation';
 
 class HomeComponent extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class HomeComponent extends React.Component {
       >
         <Hero />
         <Services />
+        <Diferentiation />
       </Layout>
     );
   }

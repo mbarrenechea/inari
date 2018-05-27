@@ -3,7 +3,7 @@ import React from 'react';
 // Styles
 import './styles.scss';
 
-class HomeComponent extends React.Component {
+class ServicesComponent extends React.Component {
   render() {
     return (
       <div className="c-services">
@@ -22,7 +22,7 @@ class HomeComponent extends React.Component {
               </ul>
             </div>
 
-            <div className="col-xs-12 col-md-4">
+            <div className="col-xs-12 col-md-8">
               <div className="services-img" />
             </div>
           </div>
@@ -32,4 +32,4 @@ class HomeComponent extends React.Component {
   }
 }
 
-export default HomeComponent;
+export default ServicesComponent;

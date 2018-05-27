@@ -1,0 +1,26 @@
+@import 'css/settings';
+
+.c-diferentiation {
+  padding: $space-1 * 6 0;
+
+  .diferentiation-content {
+    margin: $space-1 * 4 0 0;
+
+    > * {
+      margin: $space-1 * 4 0 0;
+
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .diferentiation-img {
+    transform: translate(-60%, 0);
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    background: url('/static/images/diferenciacion.jpg');
+    background-position: center;
+  }
+}
