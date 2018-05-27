@@ -7,7 +7,7 @@ import { initGA, logPageView } from 'utils/analytics';
 // Components
 import Head from 'layout/head';
 import Header from 'layout/header';
-// import Footer from 'layout/footer';
+import Footer from 'layout/footer';
 
 class LayoutApp extends React.Component {
   static propTypes = {
@@ -39,7 +39,7 @@ class LayoutApp extends React.Component {
 
         {this.props.children}
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
