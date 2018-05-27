@@ -2,7 +2,10 @@ const webpack = require('webpack');
 
 const withSass = require('@zeit/next-sass');
 
+const sassAssetUrl = process.env.NODE_ENV === 'production' ? '/inari' : '';
+
 module.exports = withSass({
+  sassLoaderOptions: { data: `$asset-url: '${sassAssetUrl}';` },
   webpack(config) {
     config.plugins.push(
       new webpack.DefinePlugin({

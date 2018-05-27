@@ -20,7 +20,7 @@
     border-radius: 50%;
     width: 450px;
     height: 450px;
-    background: url('/static/images/equipo.jpg');
+    background: url('#{$asset-url}/static/images/equipo.jpg');
     background-position: center;
   }
 }
