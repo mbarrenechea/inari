@@ -1,0 +1,26 @@
+@import 'css/settings';
+
+.c-team {
+  padding: $space-1 * 6 0;
+
+  .team-content {
+    margin: $space-1 * 4 0 0;
+
+    > * {
+      margin: $space-1 * 4 0 0;
+
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .team-img {
+    transform: translate(0%, 0);
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    background: url('/static/images/equipo.jpg');
+    background-position: center;
+  }
+}
