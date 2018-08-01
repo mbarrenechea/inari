@@ -13,7 +13,7 @@ class TeamComponent extends React.Component {
               <h2>Nuestro equipo</h2>
 
               <div className="team-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure eos tempora sit magnam fuga veritatis reprehenderit iste nihil corrupti consequatur nisi voluptatum asperiores quos, vero, sapiente deleniti reiciendis praesentium?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure eos tempora sit magnam fuga veritatis reprehenderit iste nihil corrupti consequatur nisi voluptatum asperiores quos, vero, sapiente deleniti reiciendis praesentium?</p>
+                <p>Somos un equipo joven, motivado y dinámico constituido por profesionales con gran experiencia. Liderados por la odontóloga Gemma Rubio, formamos un equipo con muchas ganas de ofrecer lo mejor a cada paciente y evolucionamos para dar el más exclusivo servicio de odontología avanzada y estética dental. Por eso cada paciente es un nuevo reto, un camino que iniciamos juntos.</p>
               </div>
             </div>
 

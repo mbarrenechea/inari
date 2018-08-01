@@ -17,9 +17,9 @@ class DiferentiationComponent extends React.Component {
               <h2>Por qué somos diferentes</h2>
 
               <div className="diferentiation-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure eos tempora sit magnam fuga veritatis reprehenderit iste nihil corrupti consequatur nisi voluptatum asperiores quos, vero, sapiente deleniti reiciendis praesentium?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure eos tempora sit magnam fuga veritatis reprehenderit iste nihil corrupti consequatur nisi voluptatum asperiores quos, vero, sapiente deleniti reiciendis praesentium?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure eos tempora sit magnam fuga veritatis reprehenderit iste nihil corrupti consequatur nisi voluptatum asperiores quos, vero, sapiente deleniti reiciendis praesentium?</p>
+                <p>Inari Estudio Dental nace en noviembre de 2017 en Alcorcón con la idea de crear un concepto diferente de salud y estética dental, en el que la excelencia de los tratamientos se combina con un trato cercano, ético y exquisito.</p>
+                <p>Inari Estudio Dental busca convertirse en la clínica de referencia de Alcorcón en tratamientos de odontología avanzada y, en particular, de estética dental.</p>
+                <p>Sus tres valores principales son Innovación, Armonía e Ilusión.</p>
               </div>
             </div>
           </div>
