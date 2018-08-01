@@ -1,4 +1,5 @@
 import React from 'react';
+import Plx from 'react-plx';
 
 // Styles
 import './styles.scss';
@@ -23,7 +24,37 @@ class ServicesComponent extends React.Component {
             </div>
 
             <div className="col-xs-12 col-md-8">
-              <div className="services-img" />
+              <Plx
+                parallaxData={[
+                  {
+                    start: '.c-services',
+                    end: 'self',
+                    endOffset: '60vh',
+                    properties: [
+                      {
+                        startValue: 0.9,
+                        endValue: 1,
+                        property: 'scale',
+                        easing: 'easeOutSine'
+                      },
+                      {
+                        startValue: 100,
+                        endValue: 0,
+                        property: 'translateY',
+                        easing: 'easeOutSine'
+                      },
+                      {
+                        startValue: 0.75,
+                        endValue: 1,
+                        property: 'opacity'
+                      }
+                    ]
+                  }
+                ]}
+              >
+                <div className="services-img" />
+              </Plx>
+
             </div>
           </div>
         </div>
