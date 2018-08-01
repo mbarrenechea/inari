@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 // Utils
 import { initGA, logPageView } from 'utils/analytics';
 
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 // Components
 import Head from 'layout/head';
 import Header from 'layout/header';
@@ -30,16 +32,18 @@ class LayoutApp extends React.Component {
 
     return (
       <div id="#main" className="l-page">
-        <Head
-          title={title}
-          description={description}
-        />
+        <ParallaxProvider>
+          <Head
+            title={title}
+            description={description}
+          />
 
-        <Header />
+          <Header />
 
-        {this.props.children}
+          {this.props.children}
 
-        <Footer />
+          <Footer />
+        </ParallaxProvider>
       </div>
     );
   }

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Parallax } from 'react-scroll-parallax';
+
 // Styles
 import './styles.scss';
 
@@ -10,7 +12,16 @@ class DiferentiationComponent extends React.Component {
         <div className="wrapper">
           <div className="row">
             <div className="col-xs-12 col-md-4">
-              <div className="diferentiation-img" />
+              <Parallax
+                className="form"
+                offsetYMin="-75px"
+                offsetYMax="75px"
+                styleInner={{ opacity: 1 }}
+                styleOuter={{ opacity: 0.5 }}
+
+              >
+                <div className="diferentiation-img" />
+              </Parallax>
             </div>
 
             <div className="col-xs-12 col-md-8">

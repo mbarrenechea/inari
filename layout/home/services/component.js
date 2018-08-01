@@ -1,4 +1,5 @@
 import React from 'react';
+import { Parallax } from 'react-scroll-parallax';
 
 // Styles
 import './styles.scss';
@@ -23,7 +24,14 @@ class ServicesComponent extends React.Component {
             </div>
 
             <div className="col-xs-12 col-md-8">
-              <div className="services-img" />
+              <Parallax
+                className="form"
+                offsetYMin="-100px"
+                offsetYMax="100px"
+                slowerScrollRate
+              >
+                <div className="services-img" />
+              </Parallax>
             </div>
           </div>
         </div>

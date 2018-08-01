@@ -1,4 +1,6 @@
 import React from 'react';
+import { Parallax } from 'react-scroll-parallax';
+
 
 // Styles
 import './styles.scss';
@@ -18,7 +20,15 @@ class TeamComponent extends React.Component {
             </div>
 
             <div className="col-xs-12 col-md-4">
-              <div className="team-img" />
+              <Parallax
+                className="form"
+                offsetYMin="-50px"
+                offsetYMax="50px"
+                slowerScrollRate
+              >
+                <div className="team-img" />
+              </Parallax>
+
             </div>
           </div>
         </div>
