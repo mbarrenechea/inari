@@ -9,6 +9,7 @@ import Services from 'layout/home/services';
 import Diferentiation from 'layout/home/diferentiation';
 import Team from 'layout/home/team';
 import Testimonials from 'layout/home/testimonials';
+import Contact from 'layout/home/contact';
 
 class HomeComponent extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class HomeComponent extends React.Component {
         <Services />
         <Diferentiation />
         <Team />
+        <Contact />
         <Testimonials />
       </Layout>
     );
