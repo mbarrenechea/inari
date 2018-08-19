@@ -28,6 +28,7 @@
 }
 
 .c-form-btn {
+  position: relative;
   appearance: none;
   display: block;
   width: 100%;
@@ -37,9 +38,27 @@
   border: 1px solid $border-color-1;
   background: $color-white;
   text-transform: uppercase;
-  font-size: $font-size-medium;
 
   &:hover {
     background: darken($color-white, 5%);
+  }
+
+  &.-success {
+    cursor: default;
+    color: $color-success;
+    border: 1px solid $color-success;
+    
+    &:hover {
+      background: $color-white;
+    }
+  }
+
+  &.-error {
+    cursor: default;
+    color: $color-error;
+    border: 1px solid $color-error;
+    &:hover {
+      background: $color-white;
+    }
   }
 }
