@@ -1,0 +1,32 @@
+@import 'css/settings';
+
+.c-hero {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 90vh;
+  width: 115vw;
+  border-radius: 0 0 50% 50%;
+  background-image: url('#{$asset-url}/static/images/hero.jpg');
+  background-position: left;
+  background-size: cover;
+
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    color: $color-white;
+    text-align: center;
+
+    > * {
+      margin: $space-1 0 0;
+      
+      &:first-child {
+        margin: 0;        
+      }
+    }    
+  }
+}

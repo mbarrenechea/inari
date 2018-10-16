@@ -1,0 +1,18 @@
+@import 'css/settings';
+
+.c-services {
+  padding: $space-1 * 6 0 0;
+
+  .services-list {
+    margin: $space-1 * 4 0 0;
+  }
+
+  .services-img {
+    transform: translate(0, -100px);
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    background: url('#{$asset-url}/static/images/servicios.jpg');
+    background-position: center;
+  }
+}
