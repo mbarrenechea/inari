@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import HeadNext from 'next/head';
 
-const stylesURL = process.env.NODE_ENV === 'production' ? '/inari' : '';
+const stylesURL = '';
 
 class Head extends React.PureComponent {
   static propTypes = {

@@ -127,7 +127,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 // Layout components
 
 
-var stylesURL =  true ? '/inari' : '';
+var stylesURL = '';
 
 var MyDocument = function (_Document) {
   _inherits(MyDocument, _Document);

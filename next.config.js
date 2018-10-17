@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 const withSass = require('@zeit/next-sass');
 
-const sassAssetUrl = process.env.NODE_ENV === 'production' ? '/inari' : '';
+const sassAssetUrl = '';
 
 module.exports = withSass({
   sassLoaderOptions: { data: `$asset-url: '${sassAssetUrl}';` },
@@ -19,6 +19,5 @@ module.exports = withSass({
   },
   exportPathMap() {
     return { '/': { page: '/home' } };
-  },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/inari/' : ''
+  }
 });
