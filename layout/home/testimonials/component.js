@@ -10,7 +10,6 @@ class TestimonialsComponent extends React.Component {
         <div className="testimonials-content">
           <h4>Nuestras sonrisas</h4>
           <h2>La mejor experiencia dental y con un resultado excelente</h2>
-          <p>María López: ortodoncia</p>
         </div>
       </div>
     );

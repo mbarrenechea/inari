@@ -8,11 +8,16 @@
   }
 
   .services-img {
+    display: none;
     transform: translate(0, -100px);
     border-radius: 50%;
     width: 600px;
     height: 600px;
     background: url('#{$asset-url}/static/images/servicios.jpg');
     background-position: center;
+
+    @media screen and (min-width: map-get($flexboxgrid-breakpoints, md)) {
+      display: block;
+    }    
   }
 }

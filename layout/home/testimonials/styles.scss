@@ -7,7 +7,6 @@
   height: 300px;
   width: 100%;
   overflow: hidden;
-  
 
   &:before {
     content: "";
@@ -31,6 +30,7 @@
     max-width: 500px;
     color: $color-secondary;
     text-align: center;
+    padding: 0 $space-1 * 2;
 
     > * {
       margin: $space-1 0 0;

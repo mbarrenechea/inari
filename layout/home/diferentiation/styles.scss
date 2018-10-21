@@ -16,14 +16,16 @@
   }
 
   .diferentiation-img {
+    display: none;
     transform: translate(-60%, -100px);
     border-radius: 50%;
     width: 600px;
     height: 600px;
     background: url('#{$asset-url}/static/images/diferenciacion.jpg');
-
-
-
     background-position: center;
+
+    @media screen and (min-width: map-get($flexboxgrid-breakpoints, md)) {
+      display: block;
+    }
   }
 }

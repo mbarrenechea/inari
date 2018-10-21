@@ -16,11 +16,16 @@
   }
 
   .team-img {
+    display: none;
     transform: translate(0%, 0);
     border-radius: 50%;
     width: 450px;
     height: 450px;
     background: url('#{$asset-url}/static/images/equipo.jpg');
     background-position: center;
+
+    @media screen and (min-width: map-get($flexboxgrid-breakpoints, md)) {
+      display: block;
+    }
   }
 }
