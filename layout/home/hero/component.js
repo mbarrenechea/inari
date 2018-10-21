@@ -39,17 +39,12 @@ class HeroComponent extends React.Component {
             <nav className="hero-nav">
               <ul>
                 <li>
-                  <a href="/">
+                  <a href="https://www.facebook.com/INARI-Estudio-Dental-270275533367706/" target="_blank" rel="noopener noreferrer">
                     <Icon name="icon-facebook" className="-small" />
                   </a>
                 </li>
                 <li>
-                  <a href="/">
-                    <Icon name="icon-twitter" className="-small" />
-                  </a>
-                </li>
-                <li>
-                  <a href="/">
+                  <a href="https://www.instagram.com/inariestudiodental/" target="_blank" rel="noopener noreferrer">
                     <Icon name="icon-instagram" className="-small" />
                   </a>
                 </li>
